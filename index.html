@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant website template with html ,css and js</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="script.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("YQHrvOQTtI5vg6xqy");
+})();
+</script>
+
+</head>
+<body>
+    <!--header section start-->
+    <header>
+        <a href="#" class="logo"><img src="img/navbar/logo.png"></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#Reservation">Reservation</a>
+            <a href="#LocationMap">Location Map</a>
+            <a href="#blog">Blog</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+    <!--header section-->
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1">
+                    <div class="content">
+                        <img src="img/navbar/crown-symbol.png">
+                        <h3>Delicious royate</h3>
+                        <h1>gift voucher</h1>
+                        <p>
+                            give away your beloved customers
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <img src="img/navbar/crown-symbol.png">
+                        <h3>sale of 10% this dish</h3>
+                        <h1>the fresh</h1>
+                        <p>
+                            food restaurant
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide3">
+                    <div class="content">
+                        <img src="img/navbar/crown-symbol.png">
+                        <h3>we are open</h3>
+                        <h1>fresh fruits</h1>
+                        <p>
+                            you will love it.!
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <section class="welcome"id="about">
+        <h1 class="heading">WELCOME TO ROYATE</h1>
+        <center><h3 class="sub-heading">~ Luxery & Quality ~</h3></center>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/navbar/post-thumb-1.jpg">
+                </div>
+                <div class="content">
+                    <h3>PROFESSIONAL LEVEL</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi nihil molestiae deserunt neque mollitia debitis dignissimos illo, adipisci eaque minima rerum minus eius officia aliquid ipsum! Ab, vitae?</P>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/navbar/post-thumb-2.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>FRESH FODD GUARANTEED</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi nihil molestiae deserunt neque mollitia debitis dignissimos illo, adipisci eaque minima rerum minus eius officia aliquid ipsum! Ab, vitae?</P>
+                        <a href="#"class="btn">Read More</a>
+        </div>
+                </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/navbar/post-thumb-3.jpg">
+                </div>
+                <div class="content">
+                    <h3>THE MENU IS PLENTIFUL</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi nihil molestiae deserunt neque mollitia debitis dignissimos illo, adipisci eaque minima rerum minus eius officia aliquid ipsum! Ab, vitae?</P>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+                </div>
+    </section>
+    <!--welcome section start-->
+    <!--our menu section start-->
+    <section class="our-menu" id="menu">
+        <h1 class="heading">Our Food Menu</h1>
+        <center><h3 class="sub-heading">~ See What We Offer ~</h3></center>
+        <div class="menu-container">
+            <div class="item">
+                <div class="item-name">
+                    <h2>Main Course</h2>
+                    <img src="img/navbar/drinks.png">
+                </div>
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Super-Delicious Zuppa Toscana</h3>
+                        <span class="dots"></span>
+                        <h3>$40</h3>
+                        <ul>
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Italian</a></li>
+                            <li><a href="#">Sausage</a></li>
+                            <li><a href="#">Spinach</a></li>
+                        </ul>
+                    </div>
+                    <div class="item-menu">
+                        <h3>Another Dish Name</h3>
+                        <span class="dots"></span>
+                        <h3>$26</h3>
+                        <ul>
+                            <li><a href="#">Mushroom</a></li>
+                            <li><a href="#">Italian</a></li>
+                            <li><a href="#">Sausage</a></li>
+                            <li><a href="#">Spinach</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-name">
+                    <h2>Soups & Salads</h2>
+                    <img src="img/navbar/drinks.png">
+                </div>
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Super-Delicious Soup Name</h3>
+                        <span class="dots"></span>
+                        <h3>$40</h3>
+                        <ul>
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Italian</a></li>
+                            <li><a href="#">Sausage</a></li>
+                            <li><a href="#">Spinach</a></li>
+                        </ul>
+                    </div>
+                    <div class="item-menu">
+                        <h3>Another Soup Name</h3>
+                        <span class="dots"></span>
+                        <h3>$26</h3>
+                        <ul>
+                            <li><a href="#">Mushroom</a></li>
+                            <li><a href="#">Italian</a></li>
+                            <li><a href="#">Sausage</a></li>
+                            <li><a href="#">Spinach</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-name">
+                    <h2>Drinks</h2>
+                    <img src="img/navbar/drinks.png">
+                </div>
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Refreshing Drink Name</h3>
+                        <span class="dots"></span>
+                        <h3>$40</h3>
+                        <ul>
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                            <li><a href="#">Option 3</a></li>
+                            <li><a href="#">Option 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="item-menu">
+                        <h3>Another Drink Name</h3>
+                        <span class="dots"></span>
+                        <h3>$26</h3>
+                        <ul>
+                            <li><a href="#">Option A</a></li>
+                            <li><a href="#">Option B</a></li>
+                            <li><a href="#">Option C</a></li>
+                            <li><a href="#">Option D</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-name">
+                    <h2>Desserts</h2>
+                    <img src="img/navbar/drinks.png">
+                </div>
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Delicious Dessert Name</h3>
+                        <span class="dots"></span>
+                        <h3>$40</h3>
+                        <ul>
+                            <li><a href="#">Option X</a></li>
+                            <li><a href="#">Option Y</a></li>
+                            <li><a href="#">Option Z</a></li>
+                            <li><a href="#">Option W</a></li>
+                        </ul>
+                    </div>
+                    <div class="item-menu">
+                        <h3>Another Dessert Name</h3>
+                        <span class="dots"></span>
+                        <h3>$26</h3>
+                        <ul>
+                            <li><a href="#">Option M</a></li>
+                            <li><a href="#">Option N</a></li>
+                            <li><a href="#">Option O</a></li>
+                            <li><a href="#">Option P</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    </section>
+ <!--our menu ends-->
+ <!--reservation section-->
+ <div class="reservation" id="reservation">
+    <div class="image">
+
+    </div>
+    <div class="form">
+        <h1 class="heading">Book a Table</h1>
+        <center><h3 class="sub-heading">~Check Out Our Place~</h3></center>
+        <form>
+            <div class="form-holder">
+                <div>
+                    <select>
+                        <option>1 people</option>
+                        <option>2 people</option>
+                        <option>3 people</option>
+                        <option>4 people</option>
+                    </select>
+                    <input type="text" name="" placeholder="Date">
+                    <input type="text" name="" placeholder="Name">
+                    <input type="email" name="" placeholder="email">
+                </div>
+            </div>
+            <center><a href="#" class="btn">Book Now</a></center>
+        </form>
+    </div>
+ </div>
+ <!--our location section start-->
+ <section class="Locaction"id="Map">
+    <h1 class="heading">Contact Us</h1>
+    <center>
+        <h3 class="sub-heading">~ Location-Map~</h3>
+    </center>
+ <section>
+    <div class="contact-container">
+        <!--forms-->
+        <div class="form-container">
+            <h3>Message Us</h3>
+            <form id="contact-form" class="contact-form" onsubmit="sendMail(); resetForm(); return false;">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Enter Your Email..." required>
+                <input type="text" id="phone" placeholder="Phone no." required>
+                <textarea id="message" cols="30" rows="10" placeholder="Write your message..." required></textarea>
+                <input type="submit" value="Send" class="send-button">
+            </form>
+        </div>
+        
+        <!--Map-->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089970882!2d77.46612549485897!3d12.953945613736227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1695010779486!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+ </section>
+ </section>
+ <!--news section-->
+ <section class="blog welcome" id="blog">
+    <h1 class="heading">Latest News</h1>
+    <center><h3 class="sub-heading">~Create article~</h3></center>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="img/navbar/post-thumb-4.jpg">
+            </div>
+            <div class="content">
+                <h3>Professional level</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, accusamus reprehenderit veritatis quo assumenda omnis tempore ullam perferendis molestiae veniam rem hic nobis, atque ut sunt ad. Maiores, accusamus reprehenderit?</p>
+                <a href="#">Read More</a>
+                <img src="img/navbar/post-body-bg-1.png">
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/navbar/post-thumb-5.jpg">
+            </div>
+            <div class="content">
+                <h3>Fresh Food GUARANTEED</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, accusamus reprehenderit veritatis quo assumenda omnis tempore ullam perferendis molestiae veniam rem hic nobis, atque ut sunt ad. Maiores, accusamus reprehenderit?</p>
+                <a href="#">Read More</a>
+                <img src="img/navbar/post-body-bg-2.png">
+                
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/navbar/post-thumb-6.jpg">
+            </div>
+            <div class="content">
+                <h3>The Menu is Plentiful</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, accusamus reprehenderit veritatis quo assumenda omnis tempore ullam perferendis molestiae veniam rem hic nobis, atque ut sunt ad. Maiores, accusamus reprehenderit?</p>
+                <a href="#">Read More</a>
+                <img src="img/navbar/post-body-bg-3.png">
+                
+            </div>
+        </div>
+    </div>
+ </section>
+ <!--footer section start-->
+ <section class="footer">
+    <img src="img/navbar/logo.png" class="logo">
+    <div class="container">
+        <div>
+            <h3>ABOUT US</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati mollitia perspiciatis molestias, possimus excepturi, cum ipsum incidunt commodi libero alias accusamus, quaerat dicta. Nemo cum eos accusamus quod quam repellendus?</p>
+    </div>
+        <h3> GET NEWS & OFFERS</h3>
+        <input type="email" name=" "placeholder="Enter Your Email" required>
+        <ul>
+            <li><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"> <i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"> <i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="#"> <i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>CONTACT US</h3>
+        <span>Creative Networks Banglore</span>
+        <span>+(91) 6378488295</span>
+        <span>mehrasaurabh054@gmail.com</span>
+        <span>www.creativenetworks.in</span>
+    </div>
+    </div>
+    <p>&copy;2023 Reserved by creative networks</p>
+ </section>
+<!--jump to top-->
+<a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".home-slider", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+    });
+    </script>
+</body>
+</html>
